@@ -1,6 +1,11 @@
+*,
+html {
+	box-sizing: border-box;
+}
+
 body {
 	font-family: "Kaushan Script" sans-serif;
-	background:lightblue;
+	background:red;
 }
 
 a {
@@ -9,11 +14,11 @@ a {
 }
 
 a:hover{
-	background:gold;
+	background:#26AA98;
 }
 
 .wrapper {
-	background-color: lightblue;
+	background-color: white;
 	max-width: 1024px;
 	width: 1024px;
 	margin:0px auto;
@@ -25,11 +30,7 @@ img {
 }
 
 h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+
 	font-family: "Tangerine", sans-serif;
 }
 
@@ -64,6 +65,11 @@ article {
 .student-block {
 	display: flex;
 	
+}
+.student-block .intro-image {
+width:300px;
+height:300px;
+
 }
 
 
@@ -121,6 +127,7 @@ section {
  
 
 
+
 .bio p {
 	color:white;
 }
@@ -137,6 +144,10 @@ section {
 	padding: 10px;
 }
 
+.baking-icon
+{
+	padding-bottom:120px;
+}
 .hobby {
 	display: flex;
 }
